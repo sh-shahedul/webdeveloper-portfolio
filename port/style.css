@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}  
+/* common style  starts*/
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    width:150px;
+    height: 64px;
+    border: none;
+    border-radius:5px ;
+    color: #fff;
+    font-size: 20px;
+    padding: 18px 35px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+body{
+      font-family: "Open Sans", sans-serif;
+
+}
+
+
+ .header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png') ;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+ }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul{
+   display: flex;
+   align-items: center;
+}
+
+nav ul li{
+  list-style: none;
+  margin: 51px;
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    width: 189px;
+    height: 27px;
+    font-size: 20px;
+
+}
+
+
+
+
+/* banner starts here  */
+  .banner{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+  }
+  .banner-content{
+     
+   
+     margin:0 35px 0 200px ; 
+     max-width: 580px;
+    
+  }
+  .hi{
+     font-size: 45px;
+     font-weight: 600;
+  }
+  .banner-title{
+     font-size: 65px;
+     font-weight: 700;
+  }
+  .banner-description{
+    font-size: 18px;
+    margin:  10px  0 0 0 ;
+    color: #757575;
+  }
+  .download-cv{
+    width:200px ;
+    height:64px ;
+    margin: 30px 0px  ;
+ 
+  }
+  .con-btn{
+    background-color: #fff;
+    color: #FD6E0A;
+    border:1px solid #FD6E0A;
+    margin-left: 10px;
+  }
+  .banner-picture{
+    width: 584px;
+    height: 676px;
+    margin: 0  38px 0 978px;
+  }
